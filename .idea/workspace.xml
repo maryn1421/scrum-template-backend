@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e2b8bd-d9e9-43db-b9c5-f614f262c24c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2021_01_20_104213_create_scrum_tables_table.php" afterDir="false" />
+    <list default="true" id="16e2b8bd-d9e9-43db-b9c5-f614f262c24c" name="Default Changelist" comment="added scrum_tables database migration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -154,11 +153,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611138869984</updated>
-      <workItem from="1611138873883" duration="811000" />
+      <workItem from="1611138873883" duration="1462000" />
     </task>
+    <task id="LOCAL-00001" summary="added scrum_tables database migration">
+      <created>1611139712877</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611139712877</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added scrum_tables database migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="added scrum_tables database migration" />
   </component>
 </project>
