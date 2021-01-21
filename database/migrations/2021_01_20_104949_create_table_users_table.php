@@ -17,6 +17,7 @@ class CreateTableUsersTable extends Migration
             $table->id();
             $table->bigInteger("table_id")->unsigned();
             $table->bigInteger("user_id")->unsigned();
+            $table->string("role");
             $table->timestamps();
             $table->foreign('table_id')
                 ->references('id')
