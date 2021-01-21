@@ -23,4 +23,5 @@ Route::get('/', function () {
 
 
 Route::get('/table/{id}', [ScrumTableController::class, "getTableByID"]);
+Route::get('/tables/{id}', [ScrumTableController::class, "getTablesByProjectId"]);
 Route::post('/new-table', [ScrumTableController::class, "saveNewTable"])->middleware("cors");

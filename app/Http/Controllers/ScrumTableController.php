@@ -36,4 +36,11 @@ class ScrumTableController
 
         return json_encode($data);
     }
+
+    public function getTablesByProjectId($id) {
+        $tables = ScrumTable::where("project_id", "=", $id)->get();
+
+        return json_encode($tables);
+
+    }
 }
