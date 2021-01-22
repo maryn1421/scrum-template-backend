@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="16e2b8bd-d9e9-43db-b9c5-f614f262c24c" name="Default Changelist" comment="added TABLE USERS database migration">
+    <list default="true" id="16e2b8bd-d9e9-43db-b9c5-f614f262c24c" name="Default Changelist" comment="Added route for getting tables by project id">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2014_10_12_000000_create_users_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2021_01_20_104949_create_table_users_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2021_01_20_104949_create_table_users_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/TaskController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Task.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Task.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +163,7 @@
       <option name="presentableId" value="Default" />
       <updated>1611138869984</updated>
       <workItem from="1611138873883" duration="5551000" />
-      <workItem from="1611224824929" duration="557000" />
+      <workItem from="1611224824929" duration="12233000" />
     </task>
     <task id="LOCAL-00001" summary="added scrum_tables database migration">
       <created>1611139712877</created>
@@ -178,7 +179,49 @@
       <option name="project" value="LOCAL" />
       <updated>1611140376090</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="finished database migrations">
+      <created>1611225442601</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1611225442601</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added ScrumTable model">
+      <created>1611225576618</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1611225576618</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added fields to  ScrumTable model">
+      <created>1611225676831</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1611225676831</updated>
+    </task>
+    <task id="LOCAL-00006" summary="added Task model and controllers">
+      <created>1611225888181</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1611225888182</updated>
+    </task>
+    <task id="LOCAL-00007" summary="added cors handling, projects database migration">
+      <created>1611230967559</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1611230967559</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Added route for getting tables by project id">
+      <created>1611244873252</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611244873252</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,6 +241,12 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added scrum_tables database migration" />
     <MESSAGE value="added TABLE USERS database migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="added TABLE USERS database migration" />
+    <MESSAGE value="finished database migrations" />
+    <MESSAGE value="added ScrumTable model" />
+    <MESSAGE value="added fields to  ScrumTable model" />
+    <MESSAGE value="added Task model and controllers" />
+    <MESSAGE value="added cors handling, projects database migration" />
+    <MESSAGE value="Added route for getting tables by project id" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added route for getting tables by project id" />
   </component>
 </project>

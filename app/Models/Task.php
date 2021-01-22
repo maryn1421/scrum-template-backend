@@ -4,7 +4,9 @@
 namespace App\Models;
 
 
-class Task extends \Illuminate\Database\Eloquent\Model
+use Illuminate\Database\Eloquent\Model;
+
+class Task extends Model
 {
     private $table_id;
     private $column_name;

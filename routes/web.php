@@ -25,3 +25,9 @@ Route::get('/', function () {
 Route::get('/table/{id}', [ScrumTableController::class, "getTableByID"]);
 Route::get('/tables/{id}', [ScrumTableController::class, "getTablesByProjectId"]);
 Route::post('/new-table', [ScrumTableController::class, "saveNewTable"])->middleware("cors");
+
+
+
+Route::get('/new/{id}', [TaskController::class, "getNewTasksByTableId"]);
+Route::get('/finished/{id}', [TaskController::class, "getFinishedTasksByTableId"]);
+Route::get('/in progress/{id}', [TaskController::class, "getInProgressTasksByTableId"]);
